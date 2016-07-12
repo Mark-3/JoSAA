@@ -57,3 +57,4 @@ while(c1 is True):
         print colored("Round Upgraded - Check Now ! Click Here To Go To Login Page :- http://josaa.nic.in/Result/Root/ResultLogin.aspx ",'yellow')
         alarm()
     time.sleep(delay)
+ 
