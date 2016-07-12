@@ -1,7 +1,6 @@
 import requests
 import time
 import winsound
-from termcolor import colored
 c1=True
 url="http://josaa.nic.in/webinfo/Public/home.aspx"
 start='N'
