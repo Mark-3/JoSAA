@@ -1,30 +1,31 @@
 import requests
 import time
 import winsound
+from termcolor import colored
 c1=True
 url="http://josaa.nic.in/webinfo/Public/home.aspx"
 start='N'
 x=0
 def display():
-    print '//////////////////////////////////////////////////////////////////////////////////////////'
-    print '//                                                                                      //'
-    print '//        11  11111  11111  11111  11111          11111   11111  11  11111              //'
-    print '//        11  11 11  11     11 11  11 11             11   11 11  11  11                 //'
-    print '//        11  11 11  11111  11111  11111  -----   11111   11 11  11  11111              //'
-    print '//        11  11 11     11  11 11  11 11          11      11 11  11  11 11              //'
-    print '//    111111  11111  11111  11 11  11 11          11111   11111  11  11 11              //'
-    print '//                                                                                      //'
-    print '//////////////////////////////////////////////////////////////////////////////////////////'
-    print '//  Designed By :- Mark-III                                                             //'
-    print '//  E-mail :- xtreme.research@gmail.com                                                 //'
-    print '//////////////////////////////////////////////////////////////////////////////////////////\n\n'
-    print '//////////////////////////////////////////////////////////////////////////////////////////'
-    print '//  -> This Program will Check every 8 seconds if the JoSSA 2016 Website has Declared   //'
-    print "//  Result of the Next Round or not . If Declared , it Will Make the Computer 'Beep'    //"
-    print '//////////////////////////////////////////////////////////////////////////////////////////'
-    print '//  For Source Code And Information , See :- https://github.com/Mark-3/JoSSA            //'
-    print '//  App Written in Python 27 , JoSAA Website :-http://josaa.nic.in                      //'
-    print '//////////////////////////////////////////////////////////////////////////////////////////'
+    print '        ////////////////////////////////////////////////////////////////////////////////////////////'
+    print '        ///                                                                                      ///'
+    print '        ///        11  11111  11111  11111  11111          11111   11111  11  11111              ///'
+    print '        ///        11  11 11  11     11 11  11 11             11   11 11  11  11                 ///'
+    print '        ///        11  11 11  11111  11111  11111  -----   11111   11 11  11  11111              ///'
+    print '        ///        11  11 11     11  11 11  11 11          11      11 11  11  11 11              ///'
+    print '        ///    111111  11111  11111  11 11  11 11          11111   11111  11  11 11              ///'
+    print '        ///                                                                                      ///'
+    print '        ////////////////////////////////////////////////////////////////////////////////////////////'
+    print '        ///  Designed By :- Mark-III                                                             ///'
+    print '        ///  E-mail :- xtreme.research@gmail.com                                                 ///'
+    print '        ////////////////////////////////////////////////////////////////////////////////////////////\n\n'
+    print '        ////////////////////////////////////////////////////////////////////////////////////////////'
+    print '        ///  -> This Program will Check every 8 seconds if the JoSSA 2016 Website has Declared   ///'
+    print "        ///  Result of the Next Round or not . If Declared , it Will Make the Computer 'Beep'    ///"
+    print '        ////////////////////////////////////////////////////////////////////////////////////////////'
+    print '        ///  For Source Code And Information , See :- https://github.com/Mark-3/JoSSA            ///'
+    print '        ///  App Written in Python 27 , JoSAA Website :-http://josaa.nic.in                      ///'
+    print '        ////////////////////////////////////////////////////////////////////////////////////////////'
 
 
 
